@@ -1,0 +1,28 @@
+.Card {
+    height: 160px;
+    width: 160px;
+    margin: 16px;
+}
+
+.flipped-card {
+    background: blue;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.card-reverse {
+    background: red;
+    height: 100%;
+    width: 100%;
+}

@@ -1,4 +1,4 @@
-const cards = [
+const pairs = [
     {
       id: 1,
       cardOne: "https://avatars3.githubusercontent.com/u/4650309?s=460&v=4",
@@ -65,7 +65,7 @@ const cards = [
     {
       id: 8,
       cardOne: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/V8_JavaScript_engine_logo_2.svg/1200px-V8_JavaScript_engine_logo_2.svg.png",
-      cardTwo: "Chrome",
+      cardTwo: "Chrome V8",
       isFlippedOne: false,
       isFlippedTwo: false,
       isFound: false
@@ -73,12 +73,8 @@ const cards = [
   
     {
       id: 9,
-      cardOne: `
-        <h1>Hola</h1>
-        <h2>Mundo</h2>
-        <h3>Hola Mundo en chiquito</h3>
-      `,
-      cardTwo: "<h1>Hola</h1> <h2>Mundo</h2> <h3>Hola Mundo en chiquito</h3>",
+      cardOne: "https://i.imgur.com/scrcyJ3.png",
+      cardTwo: "Vue",
       isFlippedOne: false,
       isFlippedTwo: false,
       isFound: false
@@ -87,7 +83,7 @@ const cards = [
     {
       id: 10,
       cardOne: "https://inteldig.com/wp-content/uploads/2018/10/cover-como-personalizar-chrome-devtools.jpg",
-      cardTwo: "Chrone DevTools",
+      cardTwo: "Chrome DevTools",
       isFlippedOne: false,
       isFlippedTwo: false,
       isFound: false
@@ -122,19 +118,17 @@ const cards = [
 
     {
       id: 14,
-      cardOne: "<>",
-      cardTwo: "</>",
+      cardOne: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png",
+      cardTwo: "Angular",
       isFlippedOne: false,
       isFlippedTwo: false,
       isFound: false
     },
   ]
 
-export const getCards = () => {
+export const getPairs = () => {
     return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(cards);
-        }, 2000);
+      resolve(pairs);
     })
 }
 
