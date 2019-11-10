@@ -55,7 +55,7 @@ const pairs = [
   
     {
       id: 7,
-      cardOne: "https://pluralsight.cardOneix.net/paths/path-icons/nodejs-601628d09d.png",
+      cardOne: "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/full/nodejslogo.png",
       cardTwo: "Node",
       isFlippedOne: false,
       isFlippedTwo: false,
@@ -135,9 +135,3 @@ export const getPairs = () => {
 export const shuffle = () => {
 
 }
-
-// getCards().then((res) => {
-//     console.log(res)
-// }, (err) => {
-//     console.log(err)
-// })
